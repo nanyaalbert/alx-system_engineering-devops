@@ -1,0 +1,2 @@
+#!/bin.bash
+cwd=$(pwd); parent=$(dirname $cwd); cp -u -r $cwd/*.html $parent
