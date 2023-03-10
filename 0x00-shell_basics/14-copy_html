@@ -1,2 +1,2 @@
-#!/bin.bash
-cwd=$(pwd); parent=$(dirname $cwd); cp -u -r $cwd/*.html $parent
+#!/bin/bash
+cp "$(pwd)"/*.html "$(dirname "$(pwd)")"
