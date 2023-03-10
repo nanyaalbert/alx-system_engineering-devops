@@ -1,2 +1,1 @@
-#!/bin/bash
-find . -type -d exec chmod 711 {} \
+- #!/bin/bash\nfind . -type d -exec chmod ugo+x {} \
